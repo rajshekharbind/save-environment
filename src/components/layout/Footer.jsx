@@ -8,6 +8,7 @@ const Footer = () => {
   const [isHovered, setIsHovered] = useState(null)
 
   // Effect to handle reduced motion preferences
+  
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
     if (mediaQuery.matches) {
@@ -309,3 +310,4 @@ const Footer = () => {
 }
 
 export default Footer
+
