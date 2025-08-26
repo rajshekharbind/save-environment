@@ -21,11 +21,11 @@ const Button = ({
     ghost: 'text-green-500 hover:bg-green-500/10 focus:ring-green-500 focus:ring-offset-white dark:focus:ring-offset-gray-900'
   }
   
-  // const sizes = {
-  //   small: 'px-4 py-2 text-sm',
-  //   medium: 'px-6 py-3 text-base',
-  //   large: 'px-8 py-4 text-lg'
-  // }
+  const sizes = {
+    small: 'px-4 py-2 text-sm',
+    medium: 'px-6 py-3 text-base',
+    large: 'px-8 py-4 text-lg'
+  }
 
   const classes = `${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`
 
