@@ -10,12 +10,12 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Text content */}
-          <motion.div 
+          {/* <motion.div 
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
             className="md:w-1/2 text-center md:text-left"
-          >
+          > */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
