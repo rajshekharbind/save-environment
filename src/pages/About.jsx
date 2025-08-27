@@ -377,7 +377,7 @@ export default function About() {
         </motion.section>
 
         {/* Team Section */}
-        {/* <motion.section
+        <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -412,7 +412,7 @@ export default function About() {
               </motion.div>
             ))}
           </div>
-        </motion.section> */}
+        </motion.section>
 
         {/* CTA Section */}
         <motion.section
