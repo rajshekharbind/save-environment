@@ -63,13 +63,13 @@ export default function Blog() {
     }
   ]
 
-  // const categories = [
-  //   { id: 'all', name: 'All Topics', icon: '🌍' },
-  //   { id: 'sustainability', name: 'Sustainability', icon: '♻️' },
-  //   { id: 'energy', name: 'Energy', icon: '⚡' },
-  //   { id: 'water', name: 'Water', icon: '💧' },
-  //   { id: 'conservation', name: 'Conservation', icon: '🛡️' }
-  // ]
+  const categories = [
+    { id: 'all', name: 'All Topics', icon: '🌍' },
+    { id: 'sustainability', name: 'Sustainability', icon: '♻️' },
+    { id: 'energy', name: 'Energy', icon: '⚡' },
+    { id: 'water', name: 'Water', icon: '💧' },
+    { id: 'conservation', name: 'Conservation', icon: '🛡️' }
+  ]
 
   const filteredPosts = activeCategory === 'all' 
     ? blogPosts 
