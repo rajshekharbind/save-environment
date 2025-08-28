@@ -10,17 +10,17 @@ const Loader = ({ size = 'medium', className = '' }) => {
   }
 
   return (
-    <div className={`flex items-center justify-center ${className}`}>
-      <motion.div
-        className={`${sizes[size]} border-4 border-green-200 border-t-green-500 rounded-full`}
-        animate={{ rotate: 360 }}
-        transition={{
-          duration: 1,
-          repeat: Infinity,
-          ease: "linear"
-        }}
-      />
-    </div>
+    // <div className={`flex items-center justify-center ${className}`}>
+    //   <motion.div
+    //     className={`${sizes[size]} border-4 border-green-200 border-t-green-500 rounded-full`}
+    //     animate={{ rotate: 360 }}
+    //     transition={{
+    //       duration: 1,
+    //       repeat: Infinity,
+    //       ease: "linear"
+    //     }}
+    //   />
+    // </div>
   )
 }
 
