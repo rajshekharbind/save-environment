@@ -29,19 +29,19 @@ const Button = ({
 
   const classes = `${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`
 
-  // return (
-  //   <motion.button
-  //     whileHover={{ scale: disabled ? 1 : 1.05 }}
-  //     whileTap={{ scale: disabled ? 1 : 0.95 }}
-  //     className={classes}
-  //     onClick={onClick}
-  //     disabled={disabled}
-  //     type={type}
-  //     {...props}
-  //   >
-  //     {children}
-  //   </motion.button>
-  // )
+  return (
+    <motion.button
+      whileHover={{ scale: disabled ? 1 : 1.05 }}
+      whileTap={{ scale: disabled ? 1 : 0.95 }}
+      className={classes}
+      onClick={onClick}
+      disabled={disabled}
+      type={type}
+      {...props}
+    >
+      {children}
+    </motion.button>
+  )
 }
 
 export default Button
