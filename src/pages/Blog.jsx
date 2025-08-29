@@ -71,9 +71,9 @@ export default function Blog() {
     { id: 'conservation', name: 'Conservation', icon: '🛡️' }
   ]
 
-  const filteredPosts = activeCategory === 'all' 
-    ? blogPosts 
-    : blogPosts.filter(post => post.category === activeCategory)
+  // const filteredPosts = activeCategory === 'all' 
+  //   ? blogPosts 
+  //   : blogPosts.filter(post => post.category === activeCategory)
 
   return (
     <div className="min-h-screen pt-20 pb-16 px-4 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
