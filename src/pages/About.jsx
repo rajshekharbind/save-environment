@@ -130,11 +130,11 @@ const stats = [
 
 // Timeline data
 const timeline = [
-  // {
-  //   year: "2018",
-  //   title: "Foundation",
-  //   description: "EcoTrack was founded with a vision to revolutionize waste management."
-  // },
+  {
+    year: "2018",
+    title: "Foundation",
+    description: "EcoTrack was founded with a vision to revolutionize waste management."
+  },
   {
     year: "2019",
     title: "First Pilot",
