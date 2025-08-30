@@ -185,9 +185,9 @@ export default function Contact() {
 
             {/* Social Media */}
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl p-6 shadow-xl">
-              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
+              {/* <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
                 Follow Us
-              </h3>
+              </h3> */}
               
               <div className="flex space-x-4">
                 {['Facebook', 'Twitter', 'Instagram', 'LinkedIn'].map((social, index) => (
