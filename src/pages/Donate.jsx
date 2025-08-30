@@ -360,9 +360,9 @@ export default function Donate() {
                   <p className="text-green-500 text-sm">Monthly supporter</p>
                 </div>
               </div>
-              {/* <p className="text-gray-600 dark:text-gray-300 italic">
+              <p className="text-gray-600 dark:text-gray-300 italic">
                 "I've been donating monthly for two years now. Seeing the impact reports and knowing my contribution is making a real difference keeps me motivated. The process is seamless and secure."
-              </p> */}
+              </p>
             </motion.div>
           </motion.div>
         </div>
