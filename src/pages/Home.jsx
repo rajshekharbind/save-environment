@@ -7,12 +7,12 @@ import StatsCounter from '../components/stats/StatsCounter'
 
 const Home = () => {
   const ecoCards = [
-    {
-      title: "Save Water",
-      icon: "💧",
-      description: "Conserve water with smart usage practices and reduce wastage.",
-      color: "from-blue-400 to-cyan-500"
-    },
+    // {
+    //   title: "Save Water",
+    //   icon: "💧",
+    //   description: "Conserve water with smart usage practices and reduce wastage.",
+    //   color: "from-blue-400 to-cyan-500"
+    // },
     {
       title: "Use Solar",
       icon: "☀️",
