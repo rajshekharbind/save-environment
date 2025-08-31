@@ -57,15 +57,15 @@ export default function Projects() {
       location: "South America"
     },
     {
-      id: 5,
-      title: "Sustainable Agriculture Program",
-      description: "Training farmers in eco-friendly practices to reduce environmental impact.",
-      category: "agriculture",
-      image: "https://tse4.mm.bing.net/th/id/OIP.m-U5pX13B5CIJ1_Gtxc_yQHaEK?pid=Api&P=0&h=220",
-      progress: 70,
-      supporters: 980,
-      location: "Global"
-    },
+    //   id: 5,
+    //   title: "Sustainable Agriculture Program",
+    //   description: "Training farmers in eco-friendly practices to reduce environmental impact.",
+    //   category: "agriculture",
+    //   image: "https://tse4.mm.bing.net/th/id/OIP.m-U5pX13B5CIJ1_Gtxc_yQHaEK?pid=Api&P=0&h=220",
+    //   progress: 70,
+    //   supporters: 980,
+    //   location: "Global"
+    // },
     {
       id: 6,
       title: "Wildlife Protection Initiative",
