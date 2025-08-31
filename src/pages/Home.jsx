@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Hero from '../components/hero/Hero'
 import EcoCard from '../components/cards/EcoCard'
-//import StatsCounter from '../components/stats/StatsCounter'
+import StatsCounter from '../components/stats/StatsCounter'
 
 const Home = () => {
   const ecoCards = [
