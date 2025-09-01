@@ -17,10 +17,10 @@
   }
 
   /* Use @apply inside @layer base so Tailwind knows how to resolve utilities */
-  /* body {
+  body {
     font-family: var(--font-sans);
     @apply bg-white text-gray-900;
-  } */
+  }
 
   /* Dark mode override */
   .dark body {
