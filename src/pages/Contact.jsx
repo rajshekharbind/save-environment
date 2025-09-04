@@ -174,10 +174,10 @@ export default function Contact() {
                     transition={{ duration: 0.2 }}
                   >
                     <span className="text-2xl">{item.icon}</span>
-                    {/* <div>
+                    <div>
                       <p className="font-semibold text-gray-800 dark:text-white">{item.label}</p>
                       <p className="text-gray-600 dark:text-gray-300">{item.value}</p>
-                    </div> */}
+                    </div>
                   </motion.div>
                 ))}
               </div>
