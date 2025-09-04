@@ -79,12 +79,12 @@ export default function Blog() {
     <div className="min-h-screen pt-20 pb-16 px-4 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
-        >
+        > */}
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-6">
             Environmental <span className="text-green-500">Blog</span>
           </h1>
