@@ -13,12 +13,12 @@ const Home = () => {
       description: "Conserve water with smart usage practices and reduce wastage.",
       color: "from-blue-400 to-cyan-500"
     },
-    // {
-    //   title: "Use Solar",
-    //   icon: "☀️",
-    //   description: "Harness solar energy to power your home and reduce carbon footprint.",
-    //   color: "from-yellow-400 to-orange-500"
-    // },
+    {
+      title: "Use Solar",
+      icon: "☀️",
+      description: "Harness solar energy to power your home and reduce carbon footprint.",
+      color: "from-yellow-400 to-orange-500"
+    },
     {
       title: "Plant Trees",
       icon: "🌳",
