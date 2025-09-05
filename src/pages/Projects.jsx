@@ -238,9 +238,9 @@ export default function Projects() {
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
             Want to Start Your Own Project?
           </h2>
-          {/* <p className="text-gray-600 dark:text-gray-300 mb-6">
+          <p className="text-gray-600 dark:text-gray-300 mb-6">
             We support community-led environmental initiatives. Get in touch to learn how we can help.
-          </p> */}
+          </p>
           <motion.button
             className="px-8 py-3 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-600 transition-colors"
             whileHover={{ scale: 1.05 }}
