@@ -377,10 +377,10 @@ export default function Donate() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              {
-                question: "Is my donation tax-deductible?",
-                answer: "Yes, we are a registered 501(c)(3) organization. You will receive a receipt for tax purposes."
-              },
+              // {
+              //   question: "Is my donation tax-deductible?",
+              //   answer: "Yes, we are a registered 501(c)(3) organization. You will receive a receipt for tax purposes."
+              // },
               {
                 question: "How is my donation used?",
                 answer: "85% of donations go directly to program expenses, 10% to administrative costs, and 5% to fundraising efforts."
