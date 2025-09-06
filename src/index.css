@@ -30,11 +30,11 @@
   }
 
   /* small helper */
-  .center-flex {
+  /* .center-flex {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
 }
 
 /* Custom animations & utilities: define them inside @layer utilities */
