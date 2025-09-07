@@ -31,9 +31,9 @@ const Button = ({
 
   return (
     <motion.button
-      // whileHover={{ scale: disabled ? 1 : 1.05 }}
-      // whileTap={{ scale: disabled ? 1 : 0.95 }}
-      // className={classes}
+      whileHover={{ scale: disabled ? 1 : 1.05 }}
+      whileTap={{ scale: disabled ? 1 : 0.95 }}
+      className={classes}
       onClick={onClick}
       disabled={disabled}
       type={type}
