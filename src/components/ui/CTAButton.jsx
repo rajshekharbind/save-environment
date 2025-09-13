@@ -20,12 +20,12 @@ const CTAButton = ({ children, ...props }) => {
       >
         <span className="relative z-10">{children}</span>
         {/* Ripple effect */}
-        <motion.span 
+        {/* <motion.span 
           className="absolute inset-0 bg-white rounded-full opacity-0 group-hover:opacity-10"
           initial={{ scale: 0 }}
           whileHover={{ scale: 2 }}
           transition={{ duration: 0.5 }}
-        />
+        /> */}
         {/* Glow effect */}
         <motion.span 
           className="absolute -inset-2 bg-green-400 rounded-full blur-md opacity-0 group-hover:opacity-50"
