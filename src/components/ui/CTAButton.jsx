@@ -27,10 +27,10 @@ const CTAButton = ({ children, ...props }) => {
           transition={{ duration: 0.5 }}
         />
         {/* Glow effect */}
-        <motion.span 
+        {/* <motion.span 
           className="absolute -inset-2 bg-green-400 rounded-full blur-md opacity-0 group-hover:opacity-50"
           transition={{ duration: 0.3 }}
-        />
+        /> */}
       </Button>
     </motion.div>
   )
