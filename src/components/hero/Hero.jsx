@@ -47,9 +47,9 @@ const Hero = () => {
               <CTAButton>
                 Get Started
               </CTAButton>
-              <Button variant="outline" size="large">
+              {/* <Button variant="outline" size="large">
                 Learn More
-              </Button>
+              </Button> */}
             </motion.div>
           </motion.div>
           
