@@ -60,11 +60,11 @@ export default function EnhancedEcoCard({ title, description, icon, color = 'fro
           // keep your gradient
           `bg-gradient-to-r ${color}`
         }`}
-        onClick={() => setOpen(true)}
-        role="button"
-        tabIndex={0}
-        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setOpen(true) }}
-      >
+      //   onClick={() => setOpen(true)}
+      //   role="button"
+      //   tabIndex={0}
+      //   onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setOpen(true) }}
+      // >
         {/* Animated shimmer */}
         <motion.div
           aria-hidden
