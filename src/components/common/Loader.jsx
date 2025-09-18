@@ -14,11 +14,11 @@ const Loader = ({ size = 'medium', className = '' }) => {
       <motion.div
         className={`${sizes[size]} border-4 border-green-200 border-t-green-500 rounded-full`}
         animate={{ rotate: 360 }}
-        // transition={{
-        //   duration: 1,
-        //   repeat: Infinity,
-        //   ease: "linear"
-        // }}
+        transition={{
+          duration: 1,
+          repeat: Infinity,
+          ease: "linear"
+        }}
       />
     </div>
   )
