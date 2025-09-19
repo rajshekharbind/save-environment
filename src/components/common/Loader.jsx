@@ -16,7 +16,7 @@ const Loader = ({ size = 'medium', className = '' }) => {
         animate={{ rotate: 360 }}
         transition={{
           duration: 1,
-          repeat: Infinity,
+         // repeat: Infinity,
           ease: "linear"
         }}
       />
