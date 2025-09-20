@@ -15,8 +15,8 @@ export default function StatsCounter({ value, label }) {
         start = value;
         clearInterval(counter);
       }
-      setCount(Math.floor(start));
-    }, 50);
+    //   setCount(Math.floor(start));
+    // }, 50);
 
     return () => clearInterval(counter);
   }, [value]);
