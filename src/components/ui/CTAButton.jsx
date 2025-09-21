@@ -150,9 +150,9 @@ const EnhancedCTAButton = ({
               <circle cx="12" cy="12" r="10" strokeWidth="3" stroke="currentColor" strokeDasharray="80" strokeDashoffset="60" fill="none" />
             </svg>
           </span>
-    //     )}
-    //   </Button>
-    // </motion.div>
+        )}
+      </Button>
+    </motion.div>
   )
 }
 
