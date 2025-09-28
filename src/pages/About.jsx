@@ -135,11 +135,11 @@ const timeline = [
     title: "Foundation",
     description: "EcoTrack was founded with a vision to revolutionize waste management."
   },
-  // {
-  //   year: "2019",
-  //   title: "First Pilot",
-  //   description: "Launched our first pilot program in three major cities."
-  // },
+  {
+    year: "2019",
+    title: "First Pilot",
+    description: "Launched our first pilot program in three major cities."
+  },
   {
     year: "2020",
     title: "Platform Launch",
