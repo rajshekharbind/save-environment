@@ -66,13 +66,13 @@ export default function EnhancedEcoCard({ title, description, icon, color = 'fro
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setOpen(true) }}
       >
         {/* Animated shimmer */}
-        {/* <motion.div
+        <motion.div
           aria-hidden
           className="absolute inset-0 pointer-events-none"
           initial={{ opacity: 0 }}
           whileHover={{ opacity: 0.15 }}
           transition={{ duration: 0.6 }}
-        > */}
+        >
           <div className="absolute -left-24 -top-12 w-56 h-56 rounded-full blur-3xl opacity-60" style={{ background: 'rgba(255,255,255,0.08)' }} />
         </motion.div>
 
