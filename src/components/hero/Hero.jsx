@@ -38,12 +38,12 @@ const Hero = () => {
               Join the movement to create a sustainable future through actionable steps and community efforts.
             </motion.p>
             
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
-            >
+            > */}
               <CTAButton>
                 Get Started
               </CTAButton>
