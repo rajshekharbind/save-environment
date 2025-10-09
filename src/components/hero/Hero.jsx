@@ -54,12 +54,12 @@ const Hero = () => {
           </motion.div>
           
           {/* Earth visualization */}
-          {/* <motion.div 
+          <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.3 }}
             className="md:w-1/2 flex justify-center"
-          > */}
+          >
             <EarthCanvas />
           </motion.div>
         </div>
