@@ -60,8 +60,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="md:w-1/2 flex justify-center"
           >
-            {/* <EarthCanvas />
-          </motion.div> */}
+            <EarthCanvas />
+          </motion.div>
         </div>
       </div>
     </section>
