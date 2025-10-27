@@ -16,12 +16,12 @@ const Hero = () => {
             transition={{ duration: 0.7 }}
             className="md:w-1/2 text-center md:text-left"
           >
-            {/* <motion.h1
+            <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-800 dark:text-white"
-            > */}
+            >
               Protect Our{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-500">
                 Planet
